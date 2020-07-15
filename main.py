@@ -1,7 +1,7 @@
-x_value = input('enter x value: ')
+a = 0
+b = 0 
 
-y_value = input('enter y value: ')
-
-for x in range(int(x_value)):
-  for y in range(int(y_value)):
-    print(x*x, y*y)
+while a < 10:
+  print((a+b)**2)
+  a += 1
+  b += 1
