@@ -1,7 +1,13 @@
-x_value = input('enter x value: ')
+import random
 
-y_value = input('enter y value: ')
+numbers = [random.randint(0, 100) for a in range(50)]
+print(numbers)
+# maximum = 0
 
-for x in range(int(x_value)):
-  for y in range(int(y_value)):
-    print(x*x, y*y)
+# for number in numbers:
+#   if number > maximum:
+#     maximum = number
+
+# print(maximum)
+
+print(max(numbers))
